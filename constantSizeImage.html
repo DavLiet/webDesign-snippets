@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+
+<!--This example shows an img that is centered and does NOT stretch when you shrink/expand it-->
+<!--Whenever using img, the width/height/display/margin CSS properties are what you use to make sure it renders correctly-->
+<!--Check out this link from W3 schools that shows the effects of the 'display' attribute: https://www.w3schools.com/cssref/playit.asp?filename=playcss_display&preval=block  -->
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <style>
+            img{
+               /* sets the width and height of img to original value. this can be changed*/
+                width:15%;  /* Mess around with the % and then resize the window. Notice that the img retains the same scale*/
+                height:auto;
+                
+                /* display property specifies the display behavior of an element*/
+                display: block;
+                /* the block value starts the element on a new line and takes up the whole width*/
+                
+                
+                /* margin creates space around the element */
+                margin: 10px 50px;
+                /* the auto value horizontally centers the img in its container */
+            }
+
+        </style>
+    </head>
+    <body>
+
+        <img src="examplePNG.jpg"/>
+
+    </body>
+</html>
